@@ -1,0 +1,43 @@
+.electronic{
+    color:chartreuse;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 4px #333;
+}
+.alternative{
+    color:rgb(209, 5, 5);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    
+}
+
+h1{
+    font-family: ginto;
+    font-size: 25px;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #c6ff81;
+    animation: colorChange 5s ease infinite alternate;
+  }
+  
+  @keyframes colorChange {
+    0% {
+      background-color: #f0ffed;
+    }
+    100% {
+      background-color: #fbeee0;
+    }
+  }
+@font-face {
+    font-family: Oracle;
+    src: url(fonts/Oracle.otf);
+}
+@font-face {
+    font-family: Ginto;
+    src: url(fonts/Ginto.otf);
+}

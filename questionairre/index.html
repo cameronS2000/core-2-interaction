@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Questionnaire</title>
 </head>
 <body>
         <h1>1. DESCRIBE YOUR PREVIOUS EXPERIENCES WITH CODING. WHAT CLASSES HAVE YOU ALREADY TAKEN WHERE YOU 
             WERE EXPOSED TO HTML/CSS/JS? WHAT PARTS OF THE CLASS RESONATED WITH YOU? WHAT PARTS WERE MOST 
             CONFUSING?</h1>
-        <p class="answer">My previous experience with coding was core 1 interaction. I enjoyed using javascript 
+            <p class="answer">My previous experience with coding was core 1 interaction. I enjoyed using javascript 
             to built more interactive experiences on my website. Javascript was also the most confusing. Creating 
             a consistent layout was difficult for me. (aligning items, sizing images/divs/iframes) I had a really 
             hard time getting any semi-complex functions working without the help of chat gpt
-        </p>
+            </p>
         <h1>2. HOW EXCITED ABOUT LEARNING CODE ARE YOU? ARE YOU NERVOUS ABOUT LEARNING CODE? IF SO, WHY? WHAT CAN I DO 
             IN THIS CLASS TO HELP REDUCE THIS ANXIETY?
         </h1>
@@ -51,8 +52,97 @@
             <h5>blueberry</h5>
             <h6>pineapple</h6>
             </p>
+        <h1>
+            8. CREATE AN UNORDERED LIST ( `UL` ) AND LINK TO SOME OF YOUR FAVORITE GRAPHIC DESIGN OR DEVELOPMENT RELATED WEBSITES.
+            INCLUDE A PARAGRAPH ( `P` ) ON EACH SITE DESCRIBING WHY IT IS IMPORTANT TO YOU.
+        </h1>
+        <ul>
+            <li><a href=spacetypegenerator.com>Space Type Generator</a></li>
+            <p>generate type in 3d space in real time</p>
+            <li><a href=pinterest.com>Pinterest</a></li>
+            <p>find inspiration for your next project</p>
+            <li><a href=p5js.org>P5JS</a></li>
+            <p>Im not exactly sure what this is but I was shown what it can do. Looks cool.</p>
+        </ul>
+        <h1>
+            9. INSERT AN IMAGE (`IMG`) THAT BRINGS YOU JOY TO THE PAGE. MAKE SURE THE IMAGE INCLUDES `ALT TEXT` THAT DESCRIBES THE IMAGE.
+        </h1>
+            <img src = "images/subject3.png" alt="karate-guy">
+        <h1>10. INSERT A VIDEO EMBED INTO THE PAGE (FOR EXAMPLE, A YOUTUBE OR VIMEO EMBED TAG OF A VIDEO OF YOUR CHOOSING). YOU HAVE A FEW WAYS YOU CAN APPROACH THIS:
+        </h1>   
+        <iframe width="1664" height="705" src="https://www.youtube.com/embed/g4mHPeMGTJM" title="10 hours of absolute silence (the original)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h1>11. NEST THE FOLLOWING SERIES OF HTML TAGS INSIDE EACH OTHER, WHERE EACH → REPRESENTS A NEW LEVEL. MAKE SURE TO MAINTAIN PROPER INDENTATION.
+        </h1>
+            <main>
+             <section>
+                 <div>
+                     <p>
+                            <span></span>
+                     </p>
+                 </div>
+             </section>
+            </main>
+        <h1>12. CREATE AN ORDERED LIST OF THE TOP 5 COUNTRIES YOU’D LIKE TO VISIT. WITHIN EACH COUNTRY, CREATE ANOTHER ORDERED LIST OF THE TOP CITIES YOU’D LIKE TO VISIT IN THAT COUNTRY. MAINTAIN PROPER INDENTATION AND MAKE SURE YOU NEST YOUR ORDERED LISTS PROPERLY.</h1>
+            <ol>
+                <li>Japan</li>
+                    <ol>
+                        <li> Tokyo</li>
+                        <li>Kyoto</li>
+                     </ol>
+                <li>Spain</li>
+                    <ol>
+                        <li>Majorka</li>
+                        <li>Madrid</li>
+                    </ol>
+                 <li>Germany
+                        <ol>
+                            <li>Berlin</li>
+                            <li>Dresden</li>
+                        </ol>
+                 </li>
+            </ol>
+        <h1>13. USE `PRE` TAGS TO CREATE A SIMPLE [CONCRETE POETRY](HTTPS://EN.WIKIPEDIA.ORG/WIKI/CONCRETE_POETRY) VERSION OF A HAIKU OR OTHER POEM YOU WRITE. THE POEM SHOULD REPRESENT HOW YOU FEEL AT THIS MOMENT.</h1>
+                 <pre>  I left my charger at home.
+                 So much work to do.
+                        But my laptop will die before I finish it all.
+                                There is not much that I can do about it.
+                                        I will do what I can.
+                 </pre>
+
+        <h1>14. WRITE AN HTML COMMENT THAT IS HIDDEN FROM THE BROWSER, BUT DISPLAYS IN THE CODE. </h1>
+                 <!-- nothing to see here -->
+        <h1>15. CREATE AN UNORDERED LIST OF AT LEAST 6 MUSICAL ARTISTS YOU LIKE TO LISTEN TO. ADD A CLASS TO EACH LIST ITEM THAT MATCHES THE GENRE OF MUSIC OF THAT ARTIST.</h1>
+                 <ul>
+                    <li class="alternative">Bar Italia</li>
+                    <li class="alternative">Double Virgo</li>
+                    <li class="electronic">The Hellp</li>
+                    <li class="electronic">Frost Children</li>
+                    <li class="alternative">Baxter Dury</li>
+                    <li class="alternative">Florence Sinclair</li>
+                 </ul>
+        <h1>16. DESCRIBE THE DIFFERENCE BETWEEN BLOCK, INLINE-BLOCK AND INLINE ELEMENTS.</h1> 
+                 <p>Block typically spans down the page, Inline spans across the page, Inline-Block combines elements of both.</p>
+        <h1>17.USE CSS TO STYLE THE MUSICAL GENRE CLASSES YOU ADDED IN QUESTION 9. GIVE EACH GENRE A COLOR AND PERSONALITY USING CSS.</h1>
+        <h1>18. USE ANY CSS KNOWLEDGE YOU CURRENTLY HAVE TO STYLE YOUR QUESTIONNAIRE IN A UNIQUE WAY. MAKE SURE TO UPDATE THE FONT TO SOMETHING OTHER THAN THE DEFAULT (USE THE FONT-FAMILY CSS PROPERTY).</h1>
+        <h1>19.IN A `SCRIPT` TAG, USE THE CONSOLE.LOG FUNCTION TO WRITE A MESSAGE TO THE CONSOLE (CMD+OPT+U). TELL ME SOMETHING INTERESTING ABOUT YOURSELF.</h1>
+                 <script>
+                    console.log(Hello World)
+                 </script>
+        <h1>20. ADD A `BUTTON` TO YOUR HTML FILE AND MAKE IT DO SOMETHING WHEN CLICKED USING JAVASCRIPT </h1>
+        <button onclick="changeFontSizes()">Press Me</button>
+        <script>
+            function changeFontSizes() {
+                var elements = document.querySelectorAll('*');
+                elements.forEach(function(element) {
+                    element.style.fontSize = '6px';
+                });
+            }
+        </script>
 
 
+
+
+            
 
 </body>
 </html>
