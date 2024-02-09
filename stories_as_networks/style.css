@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    font-size: 3vw;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10vw;
+    margin-top: 10vw;
+    padding-bottom: 6vh;
+}
+.body{
+    font-size: 1.5vw;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 13vw;
+    max-width: 70vw;
+    padding-bottom: 4vh;
+    overflow: hidden;
+}
+.footer{
+    font-size: 12vw;
+    display: flex;
+    max-width: 60vw;
+    margin-left: 20vw;
+    justify-content: space-between
+}
+@keyframes rotateAnimation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.rotate {
+    animation: rotateAnimation 5s linear infinite;
+    color: gray;
+}
+#r1{
+    animation-delay: .8s;
+}
+#r2{
+    animation-delay: .4s;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}

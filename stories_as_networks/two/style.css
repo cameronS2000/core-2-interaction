@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    font-size: 3vw;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10vw;
+    margin-top: 10vw;
+    padding-bottom: 6vh;
+}
+.body{
+    font-size: .8vw;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 13vw;
+    max-width: 40vw;
+    padding-bottom: 4vh;
+    padding-top: 10vh;
+    overflow: hidden;
+}
+.madden{
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+.madden:hover{
+    transform: scale(1.3);
+}
