@@ -12,7 +12,17 @@ h1{
     margin: 0px;
     border-radius: 10px;
     padding-top: 50px;
-    padding-bottom: 60px;
+    padding-bottom: 120px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: prophet;
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
 }
 @font-face {
     font-family: Synt;
@@ -52,7 +62,7 @@ h1{
 .class{
     display: flex;
     justify-content: space-around;
-    flex-direction: row-reverse;
+    flex-direction: row;
     padding: 30px;
     flex-wrap: wrap;
 }

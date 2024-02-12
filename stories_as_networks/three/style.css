@@ -1,0 +1,19 @@
+.header{
+    font-size: 8vw;
+    font-family: marfaitalic;
+    text-decoration: none;
+    color: black;
+}
+div{
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+}
+
+@font-face {
+    font-family: marfa;
+    src: url(../fonts/marfa.otf) format(opentype);
+}
+@font-face {
+    font-family: marfaitalic;
+    src: url(../fonts/marfathin.otf) format(opentype);
+}

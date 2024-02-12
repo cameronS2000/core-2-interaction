@@ -2,6 +2,46 @@
     margin: 0;
     padding: 0;
 }
+body{
+
+}
+.fade{
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    height: 46vh;
+    width: 100vw;
+    pointer-events: none;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.8); 
+    backdrop-filter: blur(10px); 
+    z-index: 999;
+    animation: pulseAnimation 15s infinite;
+    pointer-events: none;
+}
+@keyframes pulseAnimation {
+    0%, 100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: .9;
+    }
+}
+#top{
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#bottom{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    transform: rotate(180deg)
+}
 .header{
     font-size: 3vw;
     font-family: 'Courier New', Courier, monospace;
@@ -9,11 +49,30 @@
     margin-top: 10vw;
     padding-bottom: 6vh;
 }
-.body{
-    font-size: .8vw;
+.left{
+    font-size: 7vw;
     font-family: 'Courier New', Courier, monospace;
     margin-left: 13vw;
-    max-width: 40vw;
+    max-width: 65vw;
+    padding-bottom: 4vh;
+    padding-top: 10vh;
+    overflow: hidden;
+}
+.left2{
+    font-size: 3vw;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 10vw;
+    max-width: 65vw;
+    padding-bottom: 4vh;
+    padding-top: 10vh;
+    overflow: hidden;
+}
+.right{
+    float: right;
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 60ch;
+    padding-left: 20vw;
     padding-bottom: 4vh;
     padding-top: 10vh;
     overflow: hidden;
