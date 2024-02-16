@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>HTML Reverse Engineering</title>
+    <style>
+      section { margin-top: 120px; }
+      #table-of-contents { margin: 80px 0; }
+      .grid-col-2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      Core 2 Interaction: Lab – &nbsp;<em>HTML Reverse Engineering</em>
+    </header>
+
+    <section id="table-of-contents">
+      <ul>
+        <li><a href="#screenshot">Screenshot ↓</a></li>
+        <li><a href="#analysis">Analysis ↓</a></li>
+        <li><a href="#questions">Questions ↓</a></li>
+      </ul>
+    </section>
+
+    <section id="screenshot">
+      <h2>Screenshot</h2>
+      <img src="images/screenshot.png">
+      <img src="images/sourceCode.png">
+    </section>  
+
+    <section id="analysis">
+      <h2>Analysis</h2>
+      <div class="grid-col-2">
+        <div>
+          <pre id="analysis--simplified-html">
+          body (long links to datasets and attributes)
+            form id-blind mode
+            header id=top 
+                div id=site-title-nav 
+                div id=site-buttons
+            div id=main-wrap 
+                div id=lobby_side
+                div id=lobby_app
+                div id=lobby=tv
+            div id=friend-box 
+            a id=network-status 
+            (external script links)
+          </pre>
+        </div>
+        <div id="analysis--text">
+          <p>one thing I noticed about most websites before I chose this one to analyze is that there are body attributes. This isn't something that I have had to do within my websites yet.</p>
+          <p>I didn't know the form tag. After some research I found that it's for data input by the user.</p>
+          <p>The header is more straight forward. It contains two divs separating the site navigation from the more personalized user buttons.</p>
+          <p>The main-wrap div contains what would probably be considered the main content of the website. These div classes didn't seem to affect the page when deleted so I am assuming they are mainly used for ease of editting.</p>
+          <p> things started to fall apart when I began removing the attributes of divs inside of the sub-lobby-divs. Most issues were related to text formatting and colors of containers and buttons.</p>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="questions">
+      <h2>Questions</h2>
+      <ul>
+        <li>
+          <p>The homescreen has live updating chess games in containers. What tags/containers are used to fetch live updates?</p>
+        </li>
+        <li>
+          <p>what do all the body attributes mean? Why might a website need them and at what point will I begin using them?</p>
+        </li>
+      </ul>
+    </section>
+
+  </body>
+	
+</html>
