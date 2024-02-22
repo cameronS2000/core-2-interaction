@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>eight_a</title>
+</head>
+<body>
+    <div class="continue">
+        <a href="../index.html">continue</a>
+    </div>
+    <div class="page" id="page_one">
+        <p>
+            "Those of the blood of Ts'ui Pen," I replied, "still curse the memory of that monk. Such a publication was madness. The book is a shapeless mass of contradictory rough drafts. I examined it once upon a time: the hero dies in the third chapter, while in the fourth he is alive. As for that other enterprise of Ts'ui Pen ... his Labyrinth..."
+
+            "Here is the Labyrinth," Albert said, pointing to a tall, laquered writing cabinet. 
+            
+            "An ivory labyrinth?" I exclaimed. "A tiny labyrinth indeed...!"
+            
+        </p>
+        
+
+    </div>
+    <div class="page" id="page_two">
+            <p> 
+                We sat down, I upon a large, low divan, he with his back to the window and to a large circular clock. I calculated that my pursuer, Richard Madden, could not arrive in less than an hour. My irrevocable decision could wait. 
+
+"A strange destiny," said Stephen Albert, "that of Ts'ui Pen - Governor of his native province, learned in astronomy, in astrology and tireless in the interpretation of the canonical books, a chess player, a famous poet and a calligrapher. Yet he abandoned all to make a book and a labyrinth. He gave up all the pleasures of oppression, justice, of a well-stocked bed, of banquets, and even of erudition, and shut himself up in the Pavilion of the Limpid Sun for thirteen years. At his death, his heirs found only a mess of manuscripts. The family, as you doubtless know, wished to consign them to the fire, but the executor of the estate - a Taoist or a Buddhist monk - insisted on their publication." 
+
+            </p>
+        
+    </div>
+    <div class="page" id="page_three">
+        <p>The damp path zigzagged like those of my childhood. When we reached the house,
+            we went into a library filled with books from both East and West. I recognized
+             some large volumes bound in yellow silk-manuscripts of the Lost Encyclopedia 
+             which was edited by the Third Emperor of the Luminous Dynasty. They had never
+              been printed. A phonograph record was spinning near a bronze phoenix. I remember
+               also a rose-glazed jar and yet another, older by many centuries, of that
+                blue color which our potters copied from the Persians...
+
+           Stephen Albert was watching me with a smile on his face. He was, as I have said,
+            remarkably tall. His face was deeply lined and he had gray eyes and a gray beard.
+             There was about him something of the priest, and something of the sailor. Later, 
+             he told me he had been a missionary in Tientsin before he "had aspired to become
+             \ a Sinologist." 
+           
+       </p>
+
+    </div>
+
+<script>
+    document.querySelectorAll('.page').forEach(function (page) {
+        page.addEventListener('click', function () {
+            if (!this.classList.contains('centered')) {
+                this.classList.add('centered');
+            } else {
+                this.classList.remove('centered');
+                setTimeout(() => {
+                    this.style.transition = '';
+                }, 500);
+            }
+        });
+    });
+</script>
+  </body>
+</html>

@@ -1,13 +1,14 @@
 .module{
-    border-radius: 20px;
-    width: 15vw;
-    height: 15vw;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, .25);
+    padding-top: 15vh;
+    border-radius: 40px;
+    width: 30vw;
+    height: 30vw;
     transition: .3s ease;
-    flex: 1 1 calc(20%);
+    display: flex;
+    justify-content: center;
 }
 .module:hover{
-    transform: scale(1.2)
+    transform: scale(1.1)
 }
 
 .container{
@@ -19,9 +20,31 @@
     gap: 100px;
 }
 .title{
-    font-size: 25px;
+    font-size: 17px;
     text-align: center;
-    font-family: prophet;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 40ch;
+}
+.titlea{
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 40ch;
+    line-height: 1.5;
+}
+.titleb{
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 40ch;
+    line-height: 2.2;
+}
+.titlec{
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 40ch;
+    line-height: 5;
 }
 a{
     text-decoration: none;

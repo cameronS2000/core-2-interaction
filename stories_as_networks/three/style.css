@@ -3,6 +3,11 @@
     font-family: marfaitalic;
     text-decoration: none;
     color: black;
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+.header:hover{
+    transform: scale(1.02);
 }
 div{
     padding-top: 10vh;
@@ -16,4 +21,21 @@ div{
 @font-face {
     font-family: marfaitalic;
     src: url(../fonts/marfathin.otf) format(opentype);
+}
+.fade{
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    height: 46vh;
+    width: 100vw;
+    pointer-events: none;
+}
+#top{
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+#bottom{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    transform: rotate(180deg)
 }

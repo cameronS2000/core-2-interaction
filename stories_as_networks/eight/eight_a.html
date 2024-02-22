@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>eight_a</title>
+</head>
+<body>
+    <div class="continue">
+        <a href="../nine/index.html">continue</a>
+    </div>
+    <div class="page" id="page_one">
+        <p>Lost in these imaginary illusions I forgot my destiny - that of the hunted. 
+            For an undetermined period of time I felt myself cut off from the world,
+             an abstract spectator. The hazy and murmuring countryside, the moon, the
+              decline of the evening, stirred within me. Going down the gently sloping
+               road I could not feel fatigue. The evening was at once intimate and infinite. 
+        </p>
+
+    </div>
+    <div class="page" id="page_two">
+       <p> The road kept descending and branching off, through meadows misty in the twilight.
+         A high-pitched and almost syllabic music kept coming and going, moving with the 
+         breeze, blurred by the leaves and by distance. 
+
+        I thought that a man might be an enemy of other men, of the differing moments of 
+        other men, but never an enemy of a country: not of fireflies, words, gardens, streams, 
+        or the West wind. 
+        
+        Meditating thus I arrived at a high, rusty iron gate. Through the railings I could 
+        see an avenue bordered with poplar trees and also a kind of summer house or pavilion.
+         Two things dawned on me at once, the first trivial and the second almost incredible: 
+         the music came from the pavilion and that music was Chinese. That was why I had accepted
+          it fully, without paying it any attention. I do not remember whether there was a bell, 
+          a push-button, or whether I attracted attention by clapping my hands. The stuttering 
+          sparks of the music kept on. 
+          </p>
+        
+    </div>
+    <div class="page" id="page_three">
+        <p>
+            But from the end of the avenue, from the main house, a lantern approached; a
+             lantern which alternately, from moment to moment, was crisscrossed or put 
+             out by the trunks of the trees; a paper lantern shaped like a drum and colored 
+             like the moon. A tall man carried it. I could not see his face for the light blinded me. 
+
+            </br>He opened the gate and spoke slowly in my language. 
+
+            </br>"I see that the worthy Hsi P'eng has troubled himself to see to relieving my solitude. No doubt you want to see the garden?" 
+
+            </br>Recognizing the name of one of our consuls, I replied, somewhat taken aback. 
+
+            </br>"The garden?" 
+
+            </br>"The garden of forking paths." 
+
+            </br>Something stirred in my memory and I said, with incomprehensible assurance: 
+
+            </br>"The garden of my ancestor, Ts'ui Pen." 
+
+            </br>"Your ancestor? Your illustrious ancestor? Come in."
+
+        </p>
+
+    </div>
+
+<script>
+    document.querySelectorAll('.page').forEach(function (page) {
+        page.addEventListener('click', function () {
+            if (!this.classList.contains('centered')) {
+                this.classList.add('centered');
+            } else {
+                this.classList.remove('centered');
+                setTimeout(() => {
+                    this.style.transition = '';
+                }, 500);
+            }
+        });
+    });
+</script>
+  </body>
+</html>
