@@ -1,0 +1,443 @@
+[
+  {
+    "id": "Studded belt",
+    "FileName": "images/belt/acc1.png",
+    "Category": "belt",
+    "Color": "black",
+    "Brand": "All-Saints",
+    "Material": "Leather",
+    "Rating": 9
+  },
+  {
+    "id": "Leather belt",
+    "FileName": "images/belt/acc2.png",
+    "Category": "belt",
+    "Color": "brown",
+    "Brand": "Vintage",
+    "Material": "Leather",
+    "Rating": 10
+  },
+  {
+    "id": "Dress belt",
+    "FileName": "images/belt/acc3.png",
+    "Category": "belt",
+    "Color": "black",
+    "Brand": "Nordstrom",
+    "Material": "Leather",
+    "Rating": 5
+  },
+  {
+    "id": "Backpack",
+    "FileName": "images/bag/bag1.png",
+    "Category": "bag",
+    "Color": "black",
+    "Brand": "Acne Studios",
+    "Material": "Rip-Stop",
+    "Rating": 7
+  },
+  {
+    "id": "Messenger bag",
+    "FileName": "images/bag/bag2.png",
+    "Category": "bag",
+    "Color": "blue",
+    "Brand": "Freitag",
+    "Material": "PVC",
+    "Rating": 9
+  },
+  {
+    "id": "Leather gloves",
+    "FileName": "images/gloves/gloves1.png",
+    "Category": "gloves",
+    "Color": "black",
+    "Brand": "Bloomingdales",
+    "Material": "Leather",
+    "Rating": 6
+  },
+  {
+    "id": "Fur gloves",
+    "FileName": "images/gloves/gloves2.png",
+    "Category": "gloves",
+    "Color": "brown",
+    "Brand": "Vintage",
+    "Material": "Fur",
+    "Rating": 10
+  },
+  {
+    "id": "Fur Hood jacket",
+    "FileName": "images/jacket/jacket1.png",
+    "Category": "jacket",
+    "Color": "brown",
+    "Brand": "Vintage",
+    "Material": "Fur",
+    "Rating": 6
+  },
+  {
+    "id": "Army jacket",
+    "FileName": "images/jacket/jacket2.png",
+    "Category": "jacket",
+    "Color": "green",
+    "Brand": "Acne Studios",
+    "Material": "Cotton",
+    "Rating": 7
+  },
+  {
+    "id": "Leather jacket",
+    "FileName": "images/jacket/jacket3.png",
+    "Category": "jacket",
+    "Color": "brown",
+    "Brand": "Vintage",
+    "Material": "Leather",
+    "Rating": 6
+  },
+  {
+    "id": "Flannel",
+    "FileName": "images/jacket/jacket4.png",
+    "Category": "jacket",
+    "Color": "blue",
+    "Brand": "All-Saints",
+    "Material": "Wool",
+    "Rating": 4
+  },
+  {
+    "id": "Puffer jacket",
+    "FileName": "images/jacket/jacket5.png",
+    "Category": "jacket",
+    "Color": "green",
+    "Brand": "The North Face",
+    "Material": "Down",
+    "Rating": 6
+  },
+  {
+    "id": "Western jacket",
+    "FileName": "images/jacket/jacket6.png",
+    "Category": "jacket",
+    "Color": "blue",
+    "Brand": "Lost Worlds",
+    "Material": "Cotton",
+    "Rating": 8
+  },
+  {
+    "id": "Ski jacket",
+    "FileName": "images/jacket/jacket7.png",
+    "Category": "jacket",
+    "Color": "yellow",
+    "Brand": "Vintage",
+    "Material": "Down",
+    "Rating": 6
+  },
+  {
+    "id": "Painter's jacket",
+    "FileName": "images/jacket/jacket8.png",
+    "Category": "jacket",
+    "Color": "beige",
+    "Brand": "Vintage",
+    "Material": "Cotton",
+    "Rating": 10
+  },
+  {
+    "id": "Wool Coat",
+    "FileName": "images/jacket/jacket9.png",
+    "Category": "jacket",
+    "Color": "black",
+    "Brand": "Comme Des Garcons - Homme",
+    "Material": "Wool",
+    "Rating": 10
+  },
+  {
+    "id": "Suede jacket",
+    "FileName": "images/jacket/jacket10.png",
+    "Category": "jacket",
+    "Color": "brown",
+    "Brand": "J.C.Penny",
+    "Material": "Leather",
+    "Rating": 9
+  },
+  {
+    "id": "Jeans",
+    "FileName": "images/pants/pants1.png",
+    "Category": "pants",
+    "Color": "blue",
+    "Brand": "Nudie",
+    "Material": "Denim",
+    "Rating": 9
+  },
+  {
+    "id": "Work pants",
+    "FileName": "images/pants/pants2.png",
+    "Category": "pants",
+    "Color": "grey",
+    "Brand": "Red Kap",
+    "Material": "Cotton",
+    "Rating": 5
+  },
+  {
+    "id": "Flared pants",
+    "FileName": "images/pants/pants3.png",
+    "Category": "pants",
+    "Color": "green",
+    "Brand": "Vintage",
+    "Material": "Cotton",
+    "Rating": 4
+  },
+  {
+    "id": "Trousers",
+    "FileName": "images/pants/pants4.png",
+    "Category": "pants",
+    "Color": "grey",
+    "Brand": "Acne Studios",
+    "Material": "Cotton",
+    "Rating": 10
+  },
+  {
+    "id": "Casual pants",
+    "FileName": "images/pants/pants5.png",
+    "Category": "pants",
+    "Color": "green",
+    "Brand": "Dickies",
+    "Material": "Cotton",
+    "Rating": 7
+  },
+  {
+    "id": "Carpenter Jeans",
+    "FileName": "images/pants/pants6.png",
+    "Category": "pants",
+    "Color": "green",
+    "Brand": "Gap",
+    "Material": "Denim",
+    "Rating": 8
+  },
+  {
+    "id": "Navy shirt",
+    "FileName": "images/shirt/shirt1.png",
+    "Category": "shirt",
+    "Color": "blue",
+    "Brand": "Vintage",
+    "Material": "Cotton",
+    "Rating": 9
+  },
+  {
+    "id": "Floral shirt",
+    "FileName": "images/shirt/shirt2.png",
+    "Category": "shirt",
+    "Color": "blue",
+    "Brand": "All-Saints",
+    "Material": "Rayon",
+    "Rating": 7
+  },
+  {
+    "id": "Plaid shirt",
+    "FileName": "images/shirt/shirt3.png",
+    "Category": "shirt",
+    "Color": "beige",
+    "Brand": "J.W. Anderson x Uniqlo",
+    "Material": "Cotton",
+    "Rating": 7
+  },
+  {
+    "id": "Striped Dress shirt",
+    "FileName": "images/shirt/shirt4.png",
+    "Category": "shirt",
+    "Color": "blue",
+    "Brand": "Christian Dior",
+    "Material": "Cotton",
+    "Rating": 6
+  },
+  {
+    "id": "Dress shirt",
+    "FileName": "images/shirt/shirt5.png",
+    "Category": "shirt",
+    "Color": "blue",
+    "Brand": "Theory",
+    "Material": "Cotton",
+    "Rating": 8
+  },
+  {
+    "id": "Casual Striped shirt",
+    "FileName": "images/shirt/shirt6.png",
+    "Category": "shirt",
+    "Color": "blue",
+    "Brand": "Vince",
+    "Material": "Cotton",
+    "Rating": 6
+  },
+  {
+    "id": "Casual shirt",
+    "FileName": "images/shirt/shirt7.png",
+    "Category": "shirt",
+    "Color": "beige",
+    "Brand": "Rag & Bone",
+    "Material": "Cotton",
+    "Rating": 8
+  },
+  {
+    "id": "Western Boots",
+    "FileName": "images/shoes/shoes1.png",
+    "Category": "shoes",
+    "Color": "brown",
+    "Brand": "Vintage",
+    "Material": "Leather",
+    "Rating": 10
+  },
+  {
+    "id": "Loafers",
+    "FileName": "images/shoes/shoes2.png",
+    "Category": "shoes",
+    "Color": "black",
+    "Brand": "Marsell",
+    "Material": "Leather",
+    "Rating": 10
+  },
+  {
+    "id": "Converse",
+    "FileName": "images/shoes/shoes3.png",
+    "Category": "shoes",
+    "Color": "black",
+    "Brand": "Converse",
+    "Material": "Canvas",
+    "Rating": 9
+  },
+  {
+    "id": "Vans",
+    "FileName": "images/shoes/shoes4.png",
+    "Category": "shoes",
+    "Color": "black",
+    "Brand": "Vans",
+    "Material": "Leather",
+    "Rating": 9
+  },
+  {
+    "id": "Work Boots",
+    "FileName": "images/shoes/shoes5.png",
+    "Category": "shoes",
+    "Color": "black",
+    "Brand": "Vintage",
+    "Material": "Leather",
+    "Rating": 10
+  },
+  {
+    "id": "Active shoes",
+    "FileName": "images/shoes/shoes6.png",
+    "Category": "shoes",
+    "Color": "black",
+    "Brand": "Asics",
+    "Material": "Polyester",
+    "Rating": 6
+  },
+  {
+    "id": "Hoodie",
+    "FileName": "images/sweater/sweater1.png",
+    "Category": "sweater",
+    "Color": "black",
+    "Brand": "Blonded",
+    "Material": "Cotton",
+    "Rating": 7
+  },
+  {
+    "id": "Crewneck",
+    "FileName": "images/sweater/sweater2.png",
+    "Category": "sweater",
+    "Color": "green",
+    "Brand": "Quicksilver",
+    "Material": "Cotton",
+    "Rating": 8
+  },
+  {
+    "id": "Zip Hoodie",
+    "FileName": "images/sweater/sweater3.png",
+    "Category": "sweater",
+    "Color": "purple",
+    "Brand": "Gap",
+    "Material": "Cotton",
+    "Rating": 7
+  },
+  {
+    "id": "Two-Tone Tee",
+    "FileName": "images/tee/tee1.png",
+    "Category": "t-shirt",
+    "Color": "beige",
+    "Brand": "Harley",
+    "Material": "Cotton",
+    "Rating": 7
+  },
+  {
+    "id": "Driver Tee",
+    "FileName": "images/tee/tee2.png",
+    "Category": "t-shirt",
+    "Color": "white",
+    "Brand": "Chevrolet",
+    "Material": "Cotton",
+    "Rating": 8
+  },
+  {
+    "id": "Flag Tee",
+    "FileName": "images/tee/tee3.png",
+    "Category": "t-shirt",
+    "Color": "white",
+    "Brand": "Vintage",
+    "Material": "Cotton",
+    "Rating": 8
+  },
+  {
+    "id": "Phrase Tee",
+    "FileName": "images/tee/tee4.png",
+    "Category": "t-shirt",
+    "Color": "black",
+    "Brand": "Plz",
+    "Material": "Cotton",
+    "Rating": 9
+  },
+  {
+    "id": "Videogame Tee",
+    "FileName": "images/tee/tee5.png",
+    "Category": "t-shirt",
+    "Color": "black",
+    "Brand": "Halo",
+    "Material": "Cotton",
+    "Rating": 6
+  },
+  {
+    "id": "Duck Tee",
+    "FileName": "images/tee/tee6.png",
+    "Category": "t-shirt",
+    "Color": "white",
+    "Brand": "Noah",
+    "Material": "Cotton",
+    "Rating": 6
+  },
+  {
+    "id": "School Tee",
+    "FileName": "images/tee/tee7.png",
+    "Category": "t-shirt",
+    "Color": "white",
+    "Brand": "Vintage",
+    "Material": "Cotton",
+    "Rating": 7
+  },
+  {
+    "id": "Snowboard Tee",
+    "FileName": "images/tee/tee8.png",
+    "Category": "t-shirt",
+    "Color": "white",
+    "Brand": "Peak Performance",
+    "Material": "Cotton",
+    "Rating": 7
+  },
+  {
+    "id": "Tiger Tee",
+    "FileName": "images/tee/tee9.png",
+    "Category": "t-shirt",
+    "Color": "white",
+    "Brand": "Vintage",
+    "Material": "Cotton",
+    "Rating": 10
+  },
+  {
+    "id": "Chess Tee",
+    "FileName": "images/tee/tee10.png",
+    "Category": "t-shirt",
+    "Color": "black",
+    "Brand": "Nintendo",
+    "Material": "Cotton",
+    "Rating": 8
+  }
+]
