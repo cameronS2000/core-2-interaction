@@ -1,0 +1,99 @@
+
+.container{
+    padding: 100px;
+    width: 50%;
+    height: 80vh;
+
+}
+
+.table-top{
+    position: absolute;
+    width: 3033.5px;
+    height: 731.5px;
+    transform: skew(20);
+    background: #FFFDEF;
+    }
+    
+    
+    .orangebox-front{
+    position: absolute;
+    width: 304px;
+    height: 315px;
+    
+    background: #BF7258;
+    }
+    
+    .orangebox-side{
+    position: absolute;
+    width: 53px;
+    height: 346.5px;
+    
+    background: #B97656;
+    }
+    
+    .orangebox-top{
+    position: absolute;
+    width: 357px;
+    height: 32px;
+    
+    background: #EEC6AF;
+    }
+    
+    .orange{
+    position: absolute;
+    width: 336px;
+    height: 336px;
+    
+    background: #FC9D19;
+    }
+    
+    .orange-stem{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    
+    background: #AF9248;
+    }
+    
+    .table-side{
+    position: absolute;
+    width: 3041px;
+    height: 506px;
+    
+    background: #C7BCAD;
+    }
+    
+    .bluebox-front{
+    position: absolute;
+    width: 145px;
+    height: 541px;
+    
+    background: #08236A;
+    }
+    
+    .bluebox-side{
+    position: absolute;
+    width: 47.5px;
+    height: 552px;
+    
+    background: #596A8D;
+    }
+    
+    .bluebox-top{
+    position: absolute;
+    width: 140px;
+    height: 11px;
+    
+    background: #748DC1;
+    }
+    
+    
+    .cup{
+    position: absolute;
+    width: 321px;
+    height: 468.5px;
+    
+    background: linear-gradient(166.08deg, #D9D9D9 19.69%, #737373 54.99%);
+    opacity: 0.6;
+    }
+
